@@ -82,7 +82,7 @@ function QR_Scanner() {
     };
   
     try {
-      const response = await axios.post('http://localhost:3001/send-sms', data);
+      const response = await axios.post('https://doubtful-hare-sweatshirt.cyclic.app/send-sms', data);
       console.log('SMS sent:', response.data);
     } catch (error) {
       console.error('Failed to send SMS:', error);
