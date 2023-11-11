@@ -45,7 +45,7 @@ function ParcelData() {
 
   const sendSMS = async (phoneNumber, message) => {
     try {
-      const response = await axios.post('http://localhost:3001/send-sms', { phoneNumber, message });
+      const response = await axios.post('https://doubtful-hare-sweatshirt.cyclic.app/send-sms', { phoneNumber, message });
       console.log('SMS Sent:', response.data);
       // Optionally, handle success
     } catch (error) {
