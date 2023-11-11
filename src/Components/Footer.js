@@ -14,7 +14,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <div className="social-icons mb-4">
+            <div className="social-icons mb-4">  // Social Links to swiftrail
               <a href="https://web.facebook.com/profile.php?id=61552963589253" target='_blank' className="text-white me-3">
                 <i className="fab fa-facebook"></i>
               </a>
