@@ -1,0 +1,10 @@
+.footer-link {
+    text-decoration: none; 
+    color: white; 
+  }
+  
+  .footer-link:hover {
+    text-decoration: none; 
+    color: #01959a;
+  }
+  

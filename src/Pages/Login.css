@@ -1,0 +1,54 @@
+/* Styles for smaller screens */
+.login-container {
+    background: url('../Assets/login.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: scroll; /* Allow the background to scroll with the content on small screens */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .login-panel {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Media query for larger screens (desktop) */
+  @media (min-width: 992px) {
+    .login-panel {
+      max-width: 800px; /* Adjust the width for desktop view as needed */
+    }
+  }
+  
+  .card-header {
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    font-size: 18px;
+  }
+  
+  /* Media query for smaller screens (e.g., mobile) */
+  @media (max-width: 750px) {
+    .login-container {
+      background-attachment: scroll; /* Allow the background to scroll with the content on small screens */
+    }
+  }
+  
+  /* Styles for the Contact Us button */
+  .contact-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  

@@ -1,0 +1,99 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-other{
+
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.hero-other h1{
+
+    padding-top: 4rem !important;
+    font-size: 4rem !important;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-weight: 600cdc;
+
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    font-weight:900;
+    color: #fff;
+    font-weight: bolder;
+
+}
+
+.hero-text p{
+
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;
+    font-weight: bolder;
+}
+
+.hero-text .homeBtn {
+
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.hero-text .homeBtn:hover{
+
+    background-color: #01959a;
+    color: #fff;
+}
+
+@media screen and (max-width: 850px){
+
+    .hero-text h1{
+        font-size: 1.4rem;
+        padding: 10px 20px;
+        margin-top: 40px;
+    }
+    
+    .hero-text p{
+        font-size: 0.9rem;
+        padding-bottom: 0 0 2rem 0;
+        margin-bottom: 10px;
+        
+    }  
+ 
+    .hero-text .homeBtn{
+
+        padding: 0.6rem 1.1rem;
+        background-color: #fff;
+        color: #222;
+        
+    }
+
+    .hero-other h1{
+        font-size: 2.5rem !important; 
+    }
+
+    
+
+}
