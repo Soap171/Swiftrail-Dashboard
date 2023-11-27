@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
-// use to pass down admin details
+// use to pass the admin details to other pages
 const AdminContext = createContext();
 
 export function AdminProvider({ children }) {
