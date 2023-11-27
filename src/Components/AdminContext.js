@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
-// use to pass down admin details
+// use to pass the admin details to other pages
 const AdminContext = createContext();
 
 export function AdminProvider({ children }) {
@@ -13,7 +13,7 @@ export function AdminProvider({ children }) {
 
   const loginAdmin = (details) => {
     setAdminDetails(details);
-    // Store admin details in local storage
+    // Store admin details in local storage until log out
     localStorage.setItem('adminDetails', JSON.stringify(details));
   };
 
