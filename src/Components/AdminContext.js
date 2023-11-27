@@ -13,7 +13,7 @@ export function AdminProvider({ children }) {
 
   const loginAdmin = (details) => {
     setAdminDetails(details);
-    // Store admin details in local storage
+    // Store admin details in local storage until log out
     localStorage.setItem('adminDetails', JSON.stringify(details));
   };
 
